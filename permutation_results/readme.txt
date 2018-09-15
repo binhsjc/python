@@ -48,16 +48,17 @@ A note about the program:
 My algorithm may not be the best, but it works!!!
 It is the result of my thinking, coding; not copy from that of anyone.
 
-Here is how long it takes to calculate, produce the result for 8 and 9 position patterns.
+Here is how long it takes to calculate, produce the result for 8, 9, 10-position patterns.
 You can google and verify the result for yourself.
 
 initial pos_list [0, 1, 2, 3, 4, 5, 6, 7] len 8
-It takes 18.167758 seconds to calculate result of 40320 permutations
-
+It takes 0.089944 seconds to calculate result of 40320 permutations
 --------------------
-
 initial pos_list [0, 1, 2, 3, 4, 5, 6, 7, 8] len 9
-It takes 1657.970676 seconds to calculate result of 362880 permutations
+It takes 1.087328 seconds to calculate result of 362880 permutations
+--------------------
+initial pos_list [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] len 10
+It takes 11.076147 seconds to calculate result of 3628800 permutations
 
 
 
